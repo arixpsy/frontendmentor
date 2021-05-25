@@ -25,43 +25,35 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img src="./screenshot/desktop.png" />
+<img src="./screenshot/mobile.png" />
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/stats-card-using-css-grid-areas-PYRpBPHLV](https://www.frontendmentor.io/solutions/stats-card-using-css-grid-areas-PYRpBPHLV)
+- Live Site URL: [https://arixpsy.github.io/frontendmentor/stats-preview-card-component-main/](https://arixpsy.github.io/frontendmentor/stats-preview-card-component-main/)
 ## My Process
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5 Markup
+- CSS Variables
 - CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+Using picture tag to display different images based on screen size
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+<picture>
+  <source media="(min-width:650px)" srcset="./images/image-header-desktop.jpg">
+  <img src="./images/image-header-mobile.jpg" alt="business">
+</picture>
 ```
 
 ## Author
 
 - Website - [Arix Phua](https://arixpsy.dev)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@arixpsy](https://www.frontendmentor.io/profile/arixpsy)
 - Github - [arixpsy](https://github.com/arixpsy)
 
