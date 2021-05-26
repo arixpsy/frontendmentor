@@ -38,7 +38,7 @@ main {
 
 nav {
   background: var(--color-dark-blue);
-  padding: 2.5rem;
+  padding: 3rem;
   border-radius: 10px 100px 10px 10px;
 }
 
@@ -60,7 +60,7 @@ nav li {
 
 .storage {
   background: var(--color-dark-blue);
-  padding: 2rem;
+  padding: 2.5rem;
   border-radius: 10px;
   text-align: center;
   color: var(--color-pale-blue);
@@ -140,6 +140,15 @@ nav li {
 }
 
 @media screen and (min-width: 768px) {
+
+  body{
+    background-image: url(./images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    background-color: var(--color-very-dark-blue);
+  }
+
   main {
     grid-template-columns: auto 1fr;
     gap: 30px;
